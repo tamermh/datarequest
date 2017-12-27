@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ftp
+#open	2017-12-27-20-10-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	user	password	command	arg	mime_type	file_size	reply_code	reply_msg	data_channel.passive	data_channel.orig_h	data_channel.resp_h	data_channel.resp_p	fuid
+#types	time	string	addr	port	addr	port	string	string	string	string	string	count	count	string	bool	addr	addr	port	string
+1514391000.167845	C8h6hy3I2Z8ouMJflc	192.168.221.134	49204	181.224.138.240	21	cp@gilkeyphotography.com	-	PASV	-	-	-	227	Entering Passive Mode (181,224,138,240,135,70)	T	192.168.221.134	181.224.138.240	34630	-
+1514391000.168088	C8h6hy3I2Z8ouMJflc	192.168.221.134	49204	181.224.138.240	21	cp@gilkeyphotography.com	-	STOR	ftp://181.224.138.240/./article_wkkmvu192562_1424738629.zip	-	-	552	Logout.	-	-	-	-	-
+1514391027.132130	CKSfaC3LkicztWX537	192.168.122.213	49330	69.195.124.60	21	logmanager@iaahouston1.com	<hidden>	PASV	-	-	-	227	Entering Passive Mode (69,195,124,60,195,65)	T	192.168.122.213	69.195.124.60	49985	-
+1514391028.127069	CKHAGU2joGFxvebYqh	192.168.122.130	49191	162.144.12.241	21	wpadmin@raymondelectronics.com	<hidden>	PASV	-	-	-	227	Entering Passive Mode (162,144,12,241,184,236)	T	192.168.122.130	162.144.12.241	47340	-
+1514391027.132130	CKSfaC3LkicztWX537	192.168.122.213	49330	69.195.124.60	21	logmanager@iaahouston1.com	<hidden>	STOR	ftp://69.195.124.60/./article_einxwq960197_1450438313.zip	<unknown>	-	226	Logout.	-	-	-	-	FubFhl3vY260Kv5qJk
+1514391028.127356	CKHAGU2joGFxvebYqh	192.168.122.130	49191	162.144.12.241	21	wpadmin@raymondelectronics.com	<hidden>	STOR	ftp://162.144.12.241/./article_qpwfex967297_1451438317.zip	<unknown>	-	226	Logout.	-	-	-	-	FMT8QdGDzXw01EDc2
+1514391029.224581	CNjFiOewPap9AQFgc	192.168.122.149	49330	69.195.124.60	21	logmanager@iaahouston1.com	<hidden>	PASV	-	-	-	227	Entering Passive Mode (69,195,124,60,185,61)	T	192.168.122.149	69.195.124.60	47421	-
